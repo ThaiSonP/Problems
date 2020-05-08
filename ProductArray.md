@@ -16,3 +16,18 @@ time complexity 2N = > N
     second for loop is is dividing the product by the index then pushing it to the solution array
     
 -attempted to use a nested for loop and found out the time complexity was longer than two seperate for loops
+
+//attempt #2
+
+  for (let i = 0; i <ary.length;i++){
+    let product = 1
+    
+    for (let j = 0; j <ary.length;j++){
+      if(ary[i] === ary[j]){ continue }
+       n+=.001
+      product = product * ary[j]
+    }      
+   solution.push(product)
+  } 
+  
+  using a nested for loop to skip product rather than using division - time complexity is N^2 
