@@ -6,3 +6,4 @@ medium:
   #3
 
 hard:
+  #6
