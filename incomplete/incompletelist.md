@@ -4,6 +4,6 @@ easy:
 
 medium:
   #3
-
+  #7
 hard:
   #6
